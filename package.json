@@ -1,0 +1,43 @@
+{
+  "name": "crasps",
+  "version": "1.0.0",
+  "description": "\"# crasps\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/server.js",
+    "build": "tsc",
+    "dev": "nodemon src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meshackkiplimo/crasps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/meshackkiplimo/crasps/issues"
+  },
+  "homepage": "https://github.com/meshackkiplimo/crasps#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/node": "^22.14.1",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.1",
+    "@types/joi": "^17.2.2",
+    "@types/jsonwebtoken": "^9.0.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2",
+    "winston": "^3.17.0"
+  }
+}
